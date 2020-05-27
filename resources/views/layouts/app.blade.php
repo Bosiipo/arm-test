@@ -17,15 +17,15 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
+    <link href="../../font-awesome/fontawesome-free-5.12.1-web/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../font-awesome/fontawesome-free-5.12.1-web/webfonts">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
         @include('layouts.navbar')
 
-        <main class="py-4">
-            @yield('content')
-        </main>
+        @yield('content')
 
         @include('layouts.footer')
     </div>

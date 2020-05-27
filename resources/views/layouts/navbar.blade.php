@@ -126,7 +126,7 @@
                         CONTACT
                     </a> 
                     <div class="dropdown-menu dropdown-menu-right shadow">
-                        <a href="/contact-us" class="dropdown-item p-2" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a href="{{ url('/contact-us') }}" class="dropdown-item p-2" data-toggle="collapse" data-target=".navbar-collapse.show">
                             Contact Us
                         </a> 
                         <a href="/contact-us/faq" class="dropdown-item p-2" data-toggle="collapse" data-target=".navbar-collapse.show">
